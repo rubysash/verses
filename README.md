@@ -4,8 +4,7 @@
 
 	* Small Tk Tool to help with flash card creation 
 	* Creates CSV file based on bible topic using helper form
-
-	url:https://github.com/rubysash/verses/blob/master/verses.png
+	* Designed to later be used with flashcard creator of choice 
 
 # Python Version
 	Works on Python 3.7.2 (windows)
