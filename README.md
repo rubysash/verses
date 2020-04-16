@@ -1,16 +1,18 @@
-# verses
+# verses.py
 
-Description
+# Description
 
-	Small Tk Tool to help with flash card creation 
-	(creates CSV file based on bible topic)
+	* Small Tk Tool to help with flash card creation 
+	* Creates CSV file based on bible topic using helper form
 
-Python Version
+	![Verses Demo](rubysash.github.com/repository/img/verses.png "Verses Study Tool in Tk")
+
+# Python Version
 	Works on Python 3.7.2 (windows)
 	Works on Python 3.7.3 (Rasbperry Pi Buster)
 	untested any other version
 
-Instructions:
+# Instructions:
 
 	1. Enter a topic
 	ie:perseverance
@@ -33,4 +35,4 @@ Instructions:
 	verses.csv is just a CSV of topically sorted verses that I use for a flashcard program
 
 	7. Praise God for making it easy to learn his word!
-#
+
