@@ -1,6 +1,4 @@
 '''
-2/26/2020  james@rubysash.com
-
 Title: 
 Bible Verse Parser
 
@@ -40,15 +38,6 @@ import tkinter.messagebox as mb
 import json
 import re
 import webbrowser
-
-'''
-mike sampos 469-9062266
-214-
-
-Plano PD: 909 E 14th St  H&14th  M-F 7a-7p  Sa 8:30
-7501 Independence building A next to Davis library
-$10 for 2 cards + $5 each card afterwards
-'''
 
 # can probably not do this, but am testing still:
 from tkinter import *
