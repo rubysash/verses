@@ -33,15 +33,21 @@ It's counting on the regex/find finding things and if not, it failed
 
 '''
 
+# basic tkintr modules
 import tkinter as tk
+
+# the emssage box module for alerts/info popups
 import tkinter.messagebox as mb
-import json
+
+# the "bad way to parse out text", or is it?
 import re
+
+# loads up default browser search
 import webbrowser
 
-# can probably not do this, but am testing still:
-from tkinter import *
-from tkinter.ttk import *
+# wasn't sure which modules I'd use
+#from tkinter import *
+#from tkinter.ttk import *
 
 # general appearances
 opts1 = { 'ipadx': 5, 'ipady': 5 , 'sticky': 'nswe' } # centered and stretched
@@ -163,9 +169,9 @@ class Verses(tk.Tk):
 		print("Sample data loaded")
 
 	def parse_only(self):
-	# parses big block and fills out fields with data we wanted 
-	# added this to verify data before parsing into CSV permanently
-	# not really useful now that wee have looked at data thoroughly, probably
+		# parses big block and fills out fields with data we wanted 
+		# added this to verify data before parsing into CSV permanently
+		# not really useful now that wee have looked at data thoroughly, probably
 
 		# text widget adds a new line, so check if right before that there is nothing
 		# couldn't get this to work either.  todo
@@ -206,9 +212,9 @@ class Verses(tk.Tk):
 				mb.showinfo("Information", "The actual scripture seems very very short.  Verify it")
 
 	def print_selection(self):
-	# dumps selection under mouse, or defaults to form fields  to screen
-	# put in place for error checking, not really needed for any function
-	# kept for demonstration purposes
+		# dumps selection under mouse, or defaults to form fields  to screen
+		# put in place for error checking, not really needed for any function
+		# kept for demonstration purposes
 		selection = self.text.tag_ranges(tk.SEL)
 
 		# IF you have something selected
@@ -221,7 +227,7 @@ class Verses(tk.Tk):
 			print(content)
 
 	def parse_export(self):
-	# dumps captured data to csv file
+		# dumps captured data to csv file
 
 		# text widget adds a new line, so check if right before that there is nothing
 		# couldn't get this to work either.  todo
