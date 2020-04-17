@@ -6,6 +6,20 @@
 	* Creates CSV file based on bible topic using helper form
 	* Designed to later be used with flashcard creator of choice 
 
+# Demo code teaches examples of:
+	* This Script teaches:
+	* tkinter basics
+	* tkinter grid layout
+	* tkinter buttons, fields
+	* tkinter form field error checking
+	* tkinter popups
+	* regex/find
+	* classes
+	* basic flow control in loops
+	* splits/joins
+	* dictionaries
+	* opening browser
+
 # Python Version
 	Works on Python 3.7.2 (windows)
 	Works on Python 3.7.3 (Rasbperry Pi Buster)
