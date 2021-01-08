@@ -47,5 +47,5 @@
 
 	verses.csv is just a CSV of topically sorted verses that I use for a flashcard program
 
-	7. Praise God for making it easy to learn his word!
+	7. Praise God for making it easy to learn His word!
 
